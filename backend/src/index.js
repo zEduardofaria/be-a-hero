@@ -11,7 +11,6 @@ mongoose.connect('mongodb+srv://root:root@cluster0-vo74s.mongodb.net/test?retryW
 });
 
 app.use(express.json());
-
 app.use(routes);
 
 app.listen(3333);
